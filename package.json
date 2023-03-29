@@ -1,0 +1,25 @@
+{
+    "name": "dexbsc",
+    "type": "module",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+        "@nomiclabs/hardhat-ethers": "^2.0.6",
+        "@salamandradevs/elb-oracle": "^0.0.1",
+        "@nomiclabs/hardhat-waffle": "^2.0.3",
+        "@nomiclabs/hardhat-web3": "^2.0.0",
+        "chai": "^4.3.6",
+        "dotenv": "^16.0.3",
+        "ethereum-waffle": "^3.4.4",
+        "ethers": "^5.6.9",
+        "execution-time": "^1.4.1",
+        "hardhat": "^2.9.9",
+        "node-binance-api": "^0.13.1",
+        "web3": "^1.9.0"
+    },
+    "dependencies": {
+        "@uniswap/v2-core": "^1.0.1",
+        "@uniswap/v2-periphery": "^1.1.0-beta.0",
+        "@uniswap/v2-sdk": "^3.0.1",
+        "hardhat-web3": "^1.0.1"
+    }
+}

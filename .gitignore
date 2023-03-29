@@ -1,0 +1,12 @@
+*~
+\#*#
+.#*
+'#*
+*.session
+*.out
+config*
+*.yaml
+*.png
+node_modules/
+cache/
+.env
