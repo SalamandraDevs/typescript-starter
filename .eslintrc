@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "no-loops"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "warn", // Warn if you use console.log() method.
+    "prettier/prettier": "error", // Enforces prettier rules, see .pretierrc file.
+    "no-loops/no-loops": "warn" // Warn if you use for or while loops.
+  }
+}
