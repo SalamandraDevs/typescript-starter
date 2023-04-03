@@ -1,5 +1,2 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-for (let i = 0; i < 3; i++) {
-    console.log('Hola mundo cruel');
-}
+import { usuario } from 'local-package';
+console.log("Output from main app: ", usuario);

@@ -1,3 +1,2 @@
-for (let i = 0; i < 3; i++) {
-  console.log('Hola mundo cruel');
-}
+import { usuario } from 'local-package';
+console.log('Message from main app: ', usuario);
