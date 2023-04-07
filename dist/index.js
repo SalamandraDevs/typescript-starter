@@ -1,2 +1,2 @@
 import { usuario } from 'local-package';
-console.log("Output from main app: ", usuario);
+console.log('Message from main app: ', usuario);
