@@ -1,7 +1,11 @@
+dist/
+types/
+node_modules/
+packages/
+.env
 *~
 \#*#
 .#*
 '#*
-node_modules/
-packages/
-.env
+.DS_Store
+.Thumbs.db
