@@ -1,24 +1,25 @@
 {
   "compilerOptions": {
-    // See here for reference https://www.typescriptlang.org/tsconfig
-    "rootDir": "src",
-    "outDir": "dist",
-    "target": "es2020",
-    "lib": ["es2020"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "es2022",
     "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "allowJs": true,
-    "esModuleInterop": true,
-    "declaration": true, // Automatic declaration of .d.ts files
+    "checkJs": true,
+    "declaration": true,
     "declarationMap": true,
     "declarationDir": "./types",
+    "inlineSourceMap": true, // for tslog
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["./src/**/*.ts"],
   "ts-node": {
-    "esm": true // ES6 modules support
+    "esm": true
   }
 }
